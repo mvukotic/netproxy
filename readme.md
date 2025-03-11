@@ -45,6 +45,6 @@ Configuration
 - *localport* : The local port the forwarder should listen to.
 - *localip* : An optional local binding IP the forwarder should listen to. If empty or missing, it will listen to ANY_ADDRESS.
 - *protocol* : The protocol to forward. `tcp`,`udp`, or `any`.
-- *forwardIp* : The ip the traffic will be forwarded to.
+- *forwardIp* : The IP or host name the traffic will be forwarded to.
 - *forwardPort* : The port the traffic will be forwarded to.
 
