@@ -32,12 +32,12 @@ Configuration
 `config.json` contains a map of named forwarding rules, for instance :
 
     {
-     "http": {
-     "localport": 80,
+     "sftp": {
+     "localport": 22,
      "localip":"",
      "protocol": "tcp",
-     "forwardIp": "xx.xx.xx.xx",
-     "forwardPort": 80
+     "forwardIp": "eu-central-1.sftpcloud.io",
+     "forwardPort": 22
      },
     ...
     }
